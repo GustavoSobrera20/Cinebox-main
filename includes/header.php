@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
+ 
         <?php
         if (isset($titulo) && !empty($titulo)) {
             echo $titulo;
         } else {
             echo 'CineBox';
         }
+
         ?>
     </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -19,8 +21,8 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="assets/css/carrossel.css">
     <link rel="stylesheet" href="assets/css/filmes.css">
+    <link rel="stylesheet" href="assets/css/usuario.css">
 </head>
-
 
 <body>
     <header>
@@ -38,7 +40,7 @@
                 <li><a href="#"><i class="bi bi-search"></i></a></li>
                 <li><a href="#"><i class="bi bi-heart"></i></a></li>
                 <li><a href="#"><i class="bi bi-cart"></i></a></li>
-                <li><a href="#"><i class="bi bi-person-circle"></i></a></li>
+                <li><a href="./usuario.php"><i class="bi bi-person-circle"></i></a></li>
             </ul>
 
             <button class="menu-oculto" onclick="Javascript:abrirNav()">
