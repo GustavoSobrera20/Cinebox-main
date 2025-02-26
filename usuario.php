@@ -17,6 +17,3 @@ include './includes/header.php';
     </main>
 </section>
 
-
-
-include './includes/footer.php';
